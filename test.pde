@@ -60,7 +60,7 @@ void draw() {
   }
   
   // main draw loop
-  if (frameCount % frate == 0) {
+
     background(0);
     
     for (Base b : bases) {
@@ -70,7 +70,6 @@ void draw() {
     for (Pee p : pees) {
       p.show();
     }
-  }  
 } // end draw
 
 
