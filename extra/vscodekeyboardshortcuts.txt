@@ -1,0 +1,15 @@
+vscode shortcuts
+
+delete line - shift control k
+
+reformat - shift alt f
+
+ctrl k ctrl s -  shortcuts
+
+ctrl shift y for console toggle
+
+ctrl enter - insert new line <shift> for above
+
+ctrl shift p - command palette
+
+ctrl h - quick replace. ^(\s)*$\n for all blank lines ctrl-enter to replace all

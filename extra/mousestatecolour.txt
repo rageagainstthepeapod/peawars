@@ -1,0 +1,29 @@
+float r = 32;
+float g = 32;
+float b = 32;
+
+void setup() {
+  size(300, 300);
+}
+
+void draw() {
+  background(r, g, b);
+}
+
+void mousePressed() {
+  r = 0;
+  g = 255;
+  b = 0;
+}
+
+void mouseReleased() {
+  r = 255;
+  g = 255;
+  b = 0;
+}
+
+void mouseDragged() {
+  r = 0;
+  g = 0;
+  b = 255;
+}

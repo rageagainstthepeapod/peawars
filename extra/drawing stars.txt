@@ -1,0 +1,19 @@
+int units = 20;
+void setup() {
+  size(600,600);
+}
+
+void draw() {
+  if(frameCount % 60 ==  0) {
+    
+    
+    for (int i = 1;i <= units;i++) {
+      print("*");
+      if (i%8==0){
+        println("");
+      }
+    }
+    println("end");
+    println("end");
+  }
+  }
